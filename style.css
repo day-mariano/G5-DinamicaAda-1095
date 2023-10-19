@@ -14,10 +14,8 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0);
-    /* background-color: rgba(191, 2, 2, 0); */
     padding: 10px 20px; 
-    flex-shrink: 0;
+    margin-bottom: 200px;
 }
 
 header a {
@@ -78,9 +76,11 @@ section {
 
 h1{
     color: #091133;
-    font-weight: 500;
     font-size: 50px;
-    font-style: normal;
+    font-weight: 500;
+    line-height: 66px; /* 132% */
+    letter-spacing: 1px;
+
 }
 
 p{
@@ -91,7 +91,6 @@ p{
 }
 
 .content {
-    padding-top: 240px;
     padding-bottom: 440px;
     margin-bottom: 100px;
     background: url('assets/background.png');
