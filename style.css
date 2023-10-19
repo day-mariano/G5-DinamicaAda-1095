@@ -4,44 +4,48 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-
+    font-family: Roboto, sans-serif;
 }
 
 /* header */
-.header {
+
+header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    background-color: white;
-    padding: 10px 20px; /
+    background-color: rgba(0, 0, 0, 0);
+    /* background-color: rgba(191, 2, 2, 0); */
+    padding: 10px 20px; 
+    flex-shrink: 0;
+}
+
+header a {
+    color: #CD313E;
 }
 
 nav ul {
+    display: flex;
     list-style: none;
     text-decoration: none;
     padding: 0;
-    margin: 0;
-    display: flex;
+    margin-left: 20px;
 }
 
+/* links */
 nav li {
     margin-right: 20px; 
 }
 
 img {
+    
     max-width: 100%;
-    height: auto; 
+    height: auto;
 }
 
-button {
-    background-color: #CD313E;
-    color: #fff;
-    padding: 10px 20px; 
-}
 
 ul {
 color: #CD313E;
-font-family: Roboto, sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -49,15 +53,43 @@ line-height: 24px;
 }
 
 button {
-width: 189px;
-height: 36px;
-flex-shrink: 0;
-background-color: #CD313E;
+    border-style: none;
+}
+
+header button {
+font-size: 14px;
+width: 160px;
+height: 26px;
+border-radius: 2px;
+background-color: #EB423F;
 color: #fff;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
+
+
 /* main */
+
+section {
+    margin: 0 60px ;
+}
+
+
+h1{
+    color: #091133;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: normal;
+}
+
+p{
+    color:#D44D51;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
 .content {
     padding-top: 240px;
     padding-bottom: 440px;
@@ -83,6 +115,62 @@ color: #fff;
 }
 
 
+main section button {
+    font-size: 14px;
+    width: 189px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: #CD313E;
+    color: #fff;
+    margin-right: 20px;
+}
 
+.btn-section-vazado{
+    background-color: transparent;
+    border: 2px solid #091133;
+    color: #091133;
+}
 
+/* footer */
 
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F78282; 
+    padding-top: 68px;
+    justify-content: space-between;
+    color: white;
+}
+
+footer a{
+    color:white
+}
+
+span{
+    color: white;
+}
+
+hr{
+    background-color:#ffffff ;
+    margin: 30px 0 30px;
+}
+
+footer button {
+    background-color: #D04A3B;
+    width: 109px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #fff;
+    border: 2px;
+}
+
+.divFooterButton {
+    display: flex; 
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.divFooterNav{
+    margin-left: 20px;
+}
