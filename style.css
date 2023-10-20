@@ -152,7 +152,8 @@ span{
 
 hr{
     background-color:#ffffff ;
-    margin: 30px 0 30px;
+    margin: 30px 165px 30px 165px;
+    max-width: 1110px;
 }
 
 footer button {
@@ -165,11 +166,15 @@ footer button {
 }
 
 .divFooterButton {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     text-decoration: none;
+    margin: 0 165px 0 165px;
 }
 
 .divFooterNav{
-    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0 165px 0 165px;
 }
