@@ -150,10 +150,11 @@ span{
     color: white;
 }
 
-hr{
-    background-color:#ffffff ;
-    margin: 30px 165px 30px 165px;
-    max-width: 1110px;
+hr {
+  align-self: center;
+  width: 82.5%;
+  background-color: #ffffff;
+  margin: 30px 165px 30px 165px;
 }
 
 footer button {
