@@ -53,7 +53,7 @@ button {
 }
 
 header button {
-  font-size: 14px;
+  font-size: 12px;
   width: 160px;
   height: 26px;
   border-radius: 2px;
@@ -65,15 +65,19 @@ header button {
 /* main */
 
 section {
-  margin: 0 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 86px;
 }
 
 h1 {
   color: #091133;
   font-size: 50px;
   font-weight: 500;
-  line-height: 66px; /* 132% */
+  line-height: 66px;
   letter-spacing: 1px;
+  width: 539px;
 }
 
 p {
@@ -81,20 +85,17 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
+  line-height: 30px;
+  width: 539px;
 }
 
 .content {
-  padding-bottom: 440px;
+  padding-bottom: 400px;
   margin-bottom: 100px;
   background: url("assets/background.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-origin: border-box;
-}
-
-.content div {
-  background-color: #cecece;
-  width: 540px;
 }
 
 .content div span {
@@ -106,8 +107,8 @@ p {
   line-height: 30px;
 }
 
-main section button {
-  font-size: 14px;
+.btn button {
+  font-size: 16px;
   width: 189px;
   height: 36px;
   border-radius: 2px;
@@ -116,7 +117,7 @@ main section button {
   margin-right: 20px;
 }
 
-.btn-section-vazado {
+.btn .btn-section-vazado {
   background-color: transparent;
   border: 2px solid #091133;
   color: #091133;
@@ -144,9 +145,11 @@ span {
 
 hr {
   align-self: center;
-  width: 82.5%;
+  width: 77%;
   background-color: #ffffff;
   margin: 30px 165px 30px 165px;
+  height: 1px;
+  border-width: 0;
 }
 
 footer button {
@@ -155,7 +158,7 @@ footer button {
   height: 26px;
   flex-shrink: 0;
   color: #fff;
-  border: 2px;
+  border-radius: 2px;
 }
 
 .divFooterButton {
@@ -170,6 +173,10 @@ footer button {
   justify-content: space-between;
   text-decoration: none;
   margin: 0 165px 36px 165px;
+}
+
+footer img {
+  height: 16px;
 }
 
 .cursor:hover {
